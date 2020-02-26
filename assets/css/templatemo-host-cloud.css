@@ -962,14 +962,8 @@ footer .sub-footer a {
 		transform: translate(-50%);
 		margin-left: 15px;
 	}
-	.banner #search-section fieldset button {
-		margin-top: 0px;
-	}
-	.banner #search-section fieldset input {
-		width: 100%;
-		min-width: 280px;
-		margin-bottom: 30px;
-	}
+	
+	
 	.navbar .navbar-brand {
 		width: auto;
 	}
@@ -1037,6 +1031,10 @@ footer .sub-footer a {
 
 
 @media (max-width: 576px) {
+	.banner {
+		max-height: 600px;
+		padding: 150px  0px;
+	}
 	.functional-buttons	ul li:first-child a {
 		padding: 6px 10px;
 		letter-spacing: 0px;
