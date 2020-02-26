@@ -306,9 +306,9 @@ header {
 	line-height: 26px;
 	font-family: 'FontAwesome';
 }
-.functional-buttons {
+/* .functional-buttons {
 	margin-left: 5%;
-}
+} */
 .functional-buttons	ul {
 	margin: 0;
 	padding: 0;
@@ -379,50 +379,6 @@ header {
 	font-weight: 700;
 	color: #fff;
 	font-style: italic;
-}
-.banner #search-section fieldset {
-	display: inline-block;
-}
-.banner #search-section {
-	position: relative;
-}
-.banner #search-section input.searchText {
-	float: left;
-	width: 570px;
-	min-width: 280px;
-	height: 49px;
-	background-color: transparent;
-	border: 1px solid #fff;
-	padding: 0px 15px;
-	color: #fff;
-	outline: none;
-	font-size: 14px;
-	letter-spacing: 0.5px;
-	margin-bottom: 30px;
-}
-.banner #search-section input.main-button {
-	position: absolute;
-	top: 0;
-	right: 0;
-	outline: none;
-	cursor: pointer;
-	display: inline-block;
-	height: 50px;
-	line-height: 50px;
-	padding: 0px 20px;
-	border: none;
-	margin-left: 10px;
-	background-color: #030303;
-	color: #fff;
-	text-transform: uppercase;
-	font-size: 15px;
-	font-weight: 500;
-	letter-spacing: 0.5px;
-	transition: all 0.5s;
-	margin-bottom: 30px;
-}
-.banner #search-section button:hover {
-	background-color: #00a4b9;
 }
 
 
@@ -1103,6 +1059,7 @@ footer .sub-footer a {
 		padding: 6px 10px;
 		letter-spacing: 0px;
 	}
+	
 }
 
 
@@ -1133,7 +1090,7 @@ footer .sub-footer a {
 }
 
 .social ul li .fa {
-	font-size: 40px;
+	font-size: 20px;
 	color: #262626;
 	line-height: 80px;
 	transition: .5s;
