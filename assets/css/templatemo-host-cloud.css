@@ -22,8 +22,8 @@ a.main-button {
 	padding: 0px 25px;
 	border: none;
 	margin-left: 10px;
-	background-color: #f5eeee;
-	color: rgb(20, 20, 20);
+	background-color: #06cdf0;
+	color: rgb(252, 245, 245);
 	text-transform: uppercase;
 	font-size: 15px;
 	font-weight: 500;
@@ -31,7 +31,8 @@ a.main-button {
 	transition: all 0.5s;
 }
 a.main-button:hover {
-	background-color: #00a4b9;
+	background-color: #f6f9fa;
+	color: #06cdf0;
 }
 a.gradient-button {
 	outline: none;
